@@ -18,7 +18,7 @@ public class BubbleSort{
                 Scanner s=new Scanner(System.in);
                 System.out.println("enter Length of array:");
                 int n=s.nextInt();
-                int arr[n]=new int();   
+                int arr[]=new int[n];   
                 System.out.println("Enter elements one by one:");  
                 for(int i=0; i < arr.length; i++){  
                         a[i]=s.nextInt();  
